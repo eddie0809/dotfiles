@@ -1,0 +1,21 @@
+snippet book "BibTeX Entry - Book" w
+@book{${1:label},
+    author = "${2:}",
+    title = "${3:}",
+    publisher = "${4:}",
+    year = ${5:${CURRENT_YEAR:2023}},
+    ${6:other_fields}
+}$0
+endsnippet
+
+snippet article "BibTeX Entry - Article" w
+@article{${1:label},
+    author = "${2:}",
+    title = "${3:}",
+    journal="${4:}",
+    publisher = "${5:}",
+    year = ${6:${CURRENT_YEAR:2023}},
+    ${7:other_fields}
+}$0
+endsnippet
+
