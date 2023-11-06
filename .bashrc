@@ -98,5 +98,4 @@ export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH
 export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH
 export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
 
-alias config='/usr/bin/git --git-dir=/home/etienne/.cfg/ --work-tree=/home/etienne'
 alias dotfiles='/usr/bin/git --git-dir=/home/etienne/.dotfiles/ --work-tree=/home/etienne'
