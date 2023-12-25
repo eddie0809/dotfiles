@@ -81,20 +81,24 @@ call plug#begin('~/.vim/bundle')
 " ...
 
 Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'altercation/vim-colors-solarized'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-test/vim-test'
-" Plug 'ycm-core/YouCompleteMe'
+Plug 'ycm-core/YouCompleteMe'
 Plug 'sirver/ultisnips'
-let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+let g:UltiSnipsExpandTrigger = '<C-j>'
+let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-k>'
 let g:UltiSnipsEditSplit="vertical"
 Plug 'lervag/vimtex'
 let g:tex_flavor='latex'
+let g:vimtex_compiler_engine = 'lualatex'
 let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
 set conceallevel=1
 let g:tex_conceal='abdmg'
+
+Plug 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call plug#end()            " required
@@ -125,6 +129,9 @@ set wildmode=longest,list
 set nu
 
 set bg=dark
+let g:solarized_termtrans=1
+colorscheme solarized
+" hi Normal ctermbg=none
 
 set splitbelow
 
