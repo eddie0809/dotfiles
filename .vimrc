@@ -1,18 +1,3 @@
-" An example for a vimrc file.
-"
-" Maintainer:	The Vim Project <https://github.com/vim/vim>
-" Last Change:	2023 Aug 10
-" Former Maintainer:	Bram Moolenaar <Bram@vim.org>
-"
-" To use it, copy it to
-"	       for Unix:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"	 for MS-Windows:  $VIM\_vimrc
-"	      for Haiku:  ~/config/settings/vim/vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
-" When started as "evim", evim.vim will already have done these settings, bail
-" out.
 set nocompatible
 filetype plugin indent on
 syntax on
@@ -57,7 +42,6 @@ endif
 
 execute pathogen#infect()
 
-set nocompatible              " required
 filetype off                  " required
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -65,20 +49,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
-" set the runtime path to include Vundle and initialize
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
 call plug#begin('~/.vim/bundle')
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-" Plugin 'gmarik/Vundle.vim'
-
-" add all your plugins here (note older versions of Vundle
-" used Bundle instead of Plugin)
-
-" ...
 
 Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plug 'altercation/vim-colors-solarized'
@@ -120,16 +91,8 @@ set expandtab
 
 set encoding=utf-8
 
-set showcmd
-
-set showmatch
-
-set wildmode=longest,list
-
 set nu
 
-set bg=dark
-let g:solarized_termtrans=1
 colorscheme solarized
 " hi Normal ctermbg=none
 
