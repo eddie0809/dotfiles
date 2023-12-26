@@ -93,7 +93,7 @@ set encoding=utf-8
 
 set nu
 
-colorscheme solarized
+" colorscheme solarized
 " hi Normal ctermbg=none
 
 set splitbelow
