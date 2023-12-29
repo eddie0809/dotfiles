@@ -1,14 +1,27 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST:
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$XDG_DATA_HOME/oh-my-zsh"
+export HISTFILE="$XDG_STATE_HOME"/zsh/history
+export ZSH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
+export ZSH_CUSTOM="$ZSH_CONFIG/custom"
+
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
+
+export PYTHONSTARTUP="${XDG_CONFIG_HOME}/python/pythonrc"
+export INPUTRC="$XDG_CONFIG_HOME"/readline/inputrc
+
+export _Z_DATA="$XDG_DATA_HOME/z"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="gallois"
+if [[ "$TERM" != 'linux' ]]; then
+  ZSH_THEME='gallois'
+fi
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,12 +84,25 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize colored-man-pages copyfile archlinux systemd z zsh-interactive-cd)
+plugins=(
+  git
+  colorize
+  colored-man-pages
+  copyfile
+  archlinux
+  systemd
+  z
+  zsh-interactive-cd
+)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
+######################
+# USER CONFIGURATION #
+######################
 
+# Aliases
+[[ -f "$ZSH_CONFIG/alias.zsh" ]] && source "$ZSH_CONFIG/alias.zsh"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -98,10 +124,13 @@ export ARCHFLAGS="-arch x86_64"
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
-alias dotfiles='/usr/bin/git --git-dir=/home/etienne/.dotfiles/ --work-tree=/home/etienne'
-alias univpn="openconnect vpn.tik.uni-stuttgart.de"
+# alias zcfg="vim ~/.zshrc"
+# alias zshconfig="vim ~/.zshrc"
+# alias ohmyzsh="vim ~/.oh-my-zsh"
+# alias dotfiles='/usr/bin/git --git-dir=/home/etienne/.dotfiles/ --work-tree=/home/etienne'
+# alias univpn="openconnect vpn.tik.uni-stuttgart.de"
+# alias vimrc="vim ~/.vimrc"
+# alias i3cfg="vim ~/.config/i3/config"
 
 # adding texlive to path
 export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH
