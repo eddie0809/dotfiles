@@ -1,0 +1,8 @@
+[user]
+	email = esp8999@gmail.com
+	name = Etienne Springer
+  username = eddie0809
+[init]
+  defaultBranch = main
+[core]
+  editor = vim
