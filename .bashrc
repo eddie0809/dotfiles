@@ -85,9 +85,12 @@ _open_files_for_editing() {
 # alias pacdiff=eos-pacdiff
 ################################################################################
 
+export HISTFILE="${XDG_STATE_home}"/bash/history
+
 
 alias univpn="gtk-launch com.cisco.secureclient.gui"
-
+alias masterarbeit="cd ~/Documents/uni/theses/master/"
+alias modcross="cd ~/Documents/uni/theses/master/entsim/modules/modcross/"
 alias gute-nacht="systemctl hibernate"
 
 # Created by `pipx` on 2023-08-05 17:56:12
