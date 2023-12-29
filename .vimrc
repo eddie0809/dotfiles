@@ -1,4 +1,5 @@
 set nocompatible
+set term=kitty
 filetype plugin indent on
 syntax on
 if v:progname =~? "evim"
@@ -51,8 +52,8 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 call plug#begin('~/.vim/bundle')
 
-Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-Plug 'altercation/vim-colors-solarized'
+Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'vim-test/vim-test'
 Plug 'ycm-core/YouCompleteMe'
@@ -93,6 +94,14 @@ set encoding=utf-8
 
 set nu
 
+set termguicolors
+set background=dark
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
+let g:gruvbox_underline=1
+let g:gruvbox_undercurl=1
+colorscheme gruvbox
+
 " colorscheme solarized
 " hi Normal ctermbg=none
 
@@ -101,3 +110,5 @@ set splitbelow
 set splitright
 
 set laststatus=2
+
+let maplocalleader = ','
