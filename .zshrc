@@ -3,25 +3,21 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST:
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_DATA_HOME/oh-my-zsh"
-export HISTFILE="$XDG_STATE_HOME"/zsh/history
-export ZSH_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
-export ZSH_CUSTOM="$ZSH_CONFIG/custom"
 
-export GNUPGHOME="$XDG_DATA_HOME"/gnupg
-export ICEAUTHORITY="$XDG_CACHE_HOME"/ICEauthority
+###########
+#  THEME  #
+###########
 
-export PYTHONSTARTUP="${XDG_CONFIG_HOME}/python/pythonrc"
-export INPUTRC="$XDG_CONFIG_HOME"/readline/inputrc
-
-export _Z_DATA="$XDG_DATA_HOME/z"
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 if [[ "$TERM" != 'linux' ]]; then
   ZSH_THEME='gallois'
 fi
+
+#############
+#  PROFILE  #
+#############
+
+[[ -f "$HOME/.zprofile" ]] \
+    && source "$HOME/.zprofile"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,18 +118,3 @@ export ARCHFLAGS="-arch x86_64"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Aliases
-# alias zcfg="vim ~/.zshrc"
-# alias zshconfig="vim ~/.zshrc"
-# alias ohmyzsh="vim ~/.oh-my-zsh"
-# alias dotfiles='/usr/bin/git --git-dir=/home/etienne/.dotfiles/ --work-tree=/home/etienne'
-# alias univpn="openconnect vpn.tik.uni-stuttgart.de"
-# alias vimrc="vim ~/.vimrc"
-# alias i3cfg="vim ~/.config/i3/config"
-
-# adding texlive to path
-export MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH
-export INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH
-export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
-
