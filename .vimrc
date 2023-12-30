@@ -41,7 +41,7 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
-execute pathogen#infect()
+" execute pathogen#infect()
 
 filetype off                  " required
 
