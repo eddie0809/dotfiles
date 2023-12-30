@@ -184,9 +184,6 @@ bar {
     }
 }
 
-# Wallpaper engine
-exec_always nitrogen --restore &
-
 ###########
 # i3-gaps #
 ###########
@@ -195,7 +192,7 @@ default_border pixel 0px
 
 # smart_gaps on
 
-gaps inner 10px
+gaps inner 5px
 gaps outer 5px
 
 #########
