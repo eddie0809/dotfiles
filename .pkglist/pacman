@@ -1,327 +1,326 @@
-4ti2
-accountsservice
-adobe-source-han-sans-cn-fonts
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-alsa-firmware
-alsa-plugins
-alsa-utils
-amd-ucode
-arc-gtk-theme-eos
-audacity
-b43-fwcutter
-base
-base-devel
-bash-completion
-biber
-bind
-blueman
-bluez
-bluez-utils
-brightnessctl
-bsd-games
-btrfs-progs
-cantarell-fonts
-cmake
-code
-cryptsetup
-cups
-cups-filters
-cups-pdf
-device-mapper
-dhclient
-diffutils
-discord
-dmenu
-dmidecode
-dmraid
-dnsmasq
-docker
-dosfstools
-downgrade
-dracut
-duf
-e2fsprogs
-efibootmgr
-efitools
-endeavouros-keyring
-endeavouros-mirrorlist
-endeavouros-skel-xfce4
-endeavouros-theming
-endeavouros-xfce4-terminal-colors
-eos-apps-info
-eos-hooks
-eos-lightdm-slick-theme
-eos-log-tool
-eos-packagelist
-eos-qogir-icons
-eos-quickstart
-eos-rankmirrors
-eos-update-notifier
-espeak-ng
-ethtool
-exfatprogs
-exo
-f2fs-tools
-ffmpegthumbnailer
-file-roller
-firefox
-firewalld
-foomatic-db
-foomatic-db-engine
-foomatic-db-gutenprint-ppds
-foomatic-db-nonfree
-foomatic-db-nonfree-ppds
-foomatic-db-ppds
-frescobaldi
-fsarchiver
-galculator
-garcon
-ghostscript
-gimp
-git
-glances
-gnuchess
-gsfonts
-gst-libav
-gst-plugin-pipewire
-gst-plugins-bad
-gst-plugins-ugly
-gutenprint
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-haveged
-hdparm
-hplip
-htop
-hwdetect
-hwinfo
-i3-wm
-i3blocks
-i3lock
-i3status
-inetutils
-inkscape
-inxi
-iptables-nft
-iwd
-jfsutils
-jupyterlab
-kalgebra
-kde-education-meta
-kernel-install-for-dracut
-kitty
-kturtle
-less
-libdvdcss
-libgsf
-libopenraw
-libreoffice-still
-libwnck3
-lightdm
-lightdm-slick-greeter
-lilypond
-linux
-linux-firmware
-linux-headers
-logrotate
-lsb-release
-lskat
-lsscsi
-lvm2
-mailutils
-man-db
-man-pages
-mc
-mdadm
-mediainfo
-meld
-mesa-utils
-mlocate
-modemmanager
-mousepad
-mousetweaks
-mtools
-musescore
-nano
-nano-syntax-highlighting
-neofetch
-netctl
-network-manager-applet
-networkmanager
-networkmanager-openconnect
-networkmanager-openvpn
-nfs-utils
-nilfs-utils
-nitrogen
-noto-fonts
-nss-mdns
-ntfs-3g
-ntp
-obs-studio
-obsidian
-okular
-openssh
-orca
-p7zip
-pacman-contrib
-parole
-pavucontrol
-pdftk
-perl
-perl-anyevent-i3
-perl-json-xs
-picom
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
-pkgfile
-poppler-glib
-power-profiles-daemon
-pv
-python
-python-astropy
-python-capng
-python-defusedxml
-python-matplotlib
-python-networkx
-python-numpy
-python-openpyxl
-python-packaging
-python-pandas
-python-pip
-python-pipx
-python-pyqt5
-python-reportlab
-python-scipy
-python-sphinx
-python-sqlalchemy
-rebuild-detector
-redshift
-reflector
-reflector-simple
-reiserfsprogs
-ristretto
-rsync
-rtkit
-s-nail
-sg3_utils
-signal-desktop
-smartmontools
-sof-firmware
-splix
-steam
-sudo
-supertuxkart
-sysfsutils
-system-config-printer
-systemd-sysvcompat
-texinfo
-texlive-bibtexextra
-texlive-bin
-texlive-fontsextra
-texlive-fontsrecommended
-texlive-latexextra
-texlive-latexrecommended
-texlive-luatex
-texlive-music
-texlive-publishers
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
-thunderbird
-tldr
-tor
-torbrowser-launcher
-tree
-ttf-bitstream-vera
-ttf-dejavu
-ttf-liberation
-ttf-opensans
-ttf-tibetan-machine
-tumbler
-unrar
-unzip
-upower
-usb_modeswitch
-usbutils
-vi
-vim
-vlc
-welcome
-wget
-which
-wireplumber
-wpa_supplicant
-xcape
-xclip
-xdg-user-dirs
-xdg-user-dirs-gtk
-xdg-utils
-xed
-xf86-input-libinput
-xf86-video-amdgpu
-xf86-video-ati
-xfburn
-xfce4-appfinder
-xfce4-artwork
-xfce4-battery-plugin
-xfce4-clipman-plugin
-xfce4-cpufreq-plugin
-xfce4-cpugraph-plugin
-xfce4-datetime-plugin
-xfce4-dict
-xfce4-diskperf-plugin
-xfce4-eyes-plugin
-xfce4-fsguard-plugin
-xfce4-genmon-plugin
-xfce4-mailwatch-plugin
-xfce4-mount-plugin
-xfce4-mpc-plugin
-xfce4-netload-plugin
-xfce4-notes-plugin
-xfce4-notifyd
-xfce4-panel
-xfce4-power-manager
-xfce4-pulseaudio-plugin
-xfce4-screensaver
-xfce4-screenshooter
-xfce4-sensors-plugin
-xfce4-session
-xfce4-settings
-xfce4-smartbookmark-plugin
-xfce4-systemload-plugin
-xfce4-taskmanager
-xfce4-terminal
-xfce4-time-out-plugin
-xfce4-timer-plugin
-xfce4-verve-plugin
-xfce4-wavelan-plugin
-xfce4-weather-plugin
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
-xfconf
-xfdesktop
-xfsprogs
-xfwm4
-xfwm4-themes
-xl2tpd
-xorg-server
-xorg-xdpyinfo
-xorg-xinit
-xorg-xinput
-xorg-xkill
-xorg-xrandr
-xsane
-xterm
-yay
-yt-dlp
-zathura
-zathura-pdf-mupdf
-zsh
-zsh-completions
+4ti2 1.6.10-1
+accountsservice 23.13.9-1
+adobe-source-han-sans-cn-fonts 2.004-1
+adobe-source-han-sans-jp-fonts 2.004-1
+adobe-source-han-sans-kr-fonts 2.004-1
+alsa-firmware 1.2.4-3
+alsa-plugins 1:1.2.7.1-2
+alsa-utils 1.2.10-1
+amd-ucode 20231211.f2e52a1c-1
+arc-gtk-theme-eos 20221218-1
+audacity 1:3.4.2-2
+b43-fwcutter 019-4
+base 3-2
+base-devel 1-1
+bash-completion 2.11-3
+biber 1:2.19-2
+bind 9.18.21-1
+blueman 2.3.5-2
+bluez 5.71-3
+bluez-utils 5.71-3
+brightnessctl 0.5.1-2
+bsd-games 3.3-1
+btrfs-progs 6.6.3-1
+cantarell-fonts 1:0.303.1-1
+cmake 3.28.1-1
+code 1.85.1-1
+cryptsetup 2.6.1-3
+cups 1:2.4.7-2
+cups-filters 2.0.0-1
+cups-pdf 3.0.1-7
+device-mapper 2.03.22-2
+dhclient 4.4.3.P1-2
+diffutils 3.10-1
+discord 0.0.39-1
+dmenu 5.2-1
+dmidecode 3.5-1
+dmraid 1.0.0.rc16.3-14
+dnsmasq 2.89-1
+docker 1:24.0.7-1
+dosfstools 4.2-3
+downgrade 11.3.0-1
+dracut 059-4
+duf 0.8.1-2
+e2fsprogs 1.47.0-1
+efibootmgr 18-2
+efitools 1.9.2-5
+endeavouros-keyring 20231222-1
+endeavouros-mirrorlist 23.16-1
+endeavouros-skel-xfce4 3.7-1
+endeavouros-theming 23.11.1.1-1
+endeavouros-xfce4-terminal-colors 5-1
+eos-apps-info 23-6
+eos-hooks 1.15-1
+eos-lightdm-slick-theme 3.2-1
+eos-log-tool 23-3
+eos-packagelist 2.2-1
+eos-qogir-icons 5-1
+eos-quickstart 1.3.1-2
+eos-rankmirrors 2.25-1
+eos-update-notifier 23-17
+espeak-ng 1.51.1-2
+ethtool 1:6.5-1
+exfatprogs 1.2.2-1
+exo 4.18.0-1
+f2fs-tools 1.16.0-2
+ffmpegthumbnailer 2.2.2-5
+file-roller 43.1-1
+firefox 121.0-1
+firewalld 2.0.2-1
+foomatic-db 3:20230903-1
+foomatic-db-engine 4:20220521-1
+foomatic-db-gutenprint-ppds 5.3.4-3
+foomatic-db-nonfree 3:20230903-1
+foomatic-db-nonfree-ppds 3:20230903-1
+foomatic-db-ppds 3:20230903-1
+frescobaldi 3.3.0-2
+fsarchiver 0.8.7-1
+galculator 2.1.4-8
+garcon 4.18.1-1
+ghostscript 10.02.1-1
+gimp 2.10.36-1
+git 2.43.0-1
+glances 3.4.0.3-1
+gnuchess 6.2.9-3
+gsfonts 20200910-3
+gst-libav 1.22.8-1
+gst-plugin-pipewire 1:1.0.0-2
+gst-plugins-bad 1.22.8-1
+gst-plugins-ugly 1.22.8-1
+gutenprint 5.3.4-3
+gvfs 1.52.1-1
+gvfs-afc 1.52.1-1
+gvfs-gphoto2 1.52.1-1
+gvfs-mtp 1.52.1-1
+gvfs-nfs 1.52.1-1
+gvfs-smb 1.52.1-1
+haveged 1.9.18-1
+hdparm 9.65-1
+hplip 1:3.23.12-1
+htop 3.2.2-1
+hwdetect 2023.07.02-1
+hwinfo 23.2-1
+i3-wm 4.23-1
+i3blocks 1.5-4
+i3lock 2.14.1-1
+i3status 2.14-1
+inetutils 2.4-2
+inkscape 1.3.2-3
+inxi 3.3.31.1-1
+iptables-nft 1:1.8.10-1
+iwd 2.12-1
+jfsutils 1.1.15-8
+jupyterlab 4.0.9-1
+kalgebra 23.08.4-1
+kde-education-meta 23.08-1
+kernel-install-for-dracut 1.9.1-1
+kitty 0.31.0-1
+kturtle 23.08.4-1
+less 1:643-1
+libdvdcss 1.4.3-1
+libgsf 1.14.51-1
+libopenraw 0.3.7-1
+libreoffice-still 7.5.9-2
+libwnck3 43.0-3
+lightdm 1:1.32.0-5
+lightdm-slick-greeter 2.0.2-1
+lilypond 2.24.3-2
+linux 6.6.8.arch1-1
+linux-firmware 20231211.f2e52a1c-1
+linux-headers 6.6.8.arch1-1
+logrotate 3.21.0-2
+lsb-release 2.0.r53.a86f885-1
+lskat 23.08.4-1
+lsscsi 0.32-1
+lvm2 2.03.22-2
+mailutils 3.16-1
+man-db 2.12.0-1
+man-pages 6.05.01-2
+mc 4.8.30-1
+mdadm 4.2-2
+mediainfo 23.11-1
+meld 3.22.0-2
+mesa-utils 9.0.0-3
+mlocate 0.26.git.20170220-7
+modemmanager 1.22.0-1
+mousepad 0.6.1-3
+mousetweaks 3.32.0-2
+mtools 1:4.0.43-1
+musescore 4.2.0-1
+nano 7.2-1
+nano-syntax-highlighting 2020.10.10-1
+neofetch 7.1.0-2
+netctl 1.29-1
+network-manager-applet 1.34.0-1
+networkmanager 1.44.2-3
+networkmanager-openconnect 1.2.10-1
+networkmanager-openvpn 1.10.2-3
+nfs-utils 2.6.4-1
+nilfs-utils 2.2.9-2
+nitrogen 1.6.1-4
+noto-fonts 1:23.12.1-1
+nss-mdns 0.15.1-1
+ntfs-3g 2022.10.3-1
+ntp 4.2.8.p17-1
+obs-studio 30.0.2-1
+obsidian 1.5.3-1
+okular 23.08.4-1
+openssh 9.6p1-1
+orca 45.1-1
+p7zip 1:17.05-2
+pacman-contrib 1.9.1-1
+parole 4.18.1-1
+pavucontrol 1:5.0+r64+geba9ca6-1
+perl 5.38.1-1
+perl-anyevent-i3 0.17-9
+perl-json-xs 4.03-4
+picom 10.2-1
+pipewire-alsa 1:1.0.0-2
+pipewire-jack 1:1.0.0-2
+pipewire-pulse 1:1.0.0-2
+pkgfile 21-2
+poppler-glib 23.12.0-1
+power-profiles-daemon 0.13-1
+pv 1.8.5-1
+python 3.11.6-1
+python-astropy 5.3.4-1
+python-capng 0.8.3-2
+python-defusedxml 0.7.1-5
+python-matplotlib 3.8.2-1
+python-networkx 3.2.1-1
+python-numpy 1.26.2-1
+python-openpyxl 3.1.2-3
+python-packaging 23.2-1
+python-pandas 1.5.3-3
+python-pip 23.3.2-1
+python-pipx 1.3.3-2
+python-pyqt5 5.15.10-1
+python-reportlab 3.6.12-3
+python-scipy 1.11.4-1
+python-sphinx 7.2.6-1
+python-sqlalchemy 1.4.44-2
+rebuild-detector 4.4.2-1
+redshift 1.12-8
+reflector 2023-1
+reflector-simple 2023-4
+reiserfsprogs 3.6.27-4
+ristretto 0.13.1-1
+rsync 3.2.7-6
+rtkit 0.13-2
+s-nail 14.9.24-2
+sg3_utils 1.47-1
+signal-desktop 6.42.1-1
+smartmontools 7.4-1
+sof-firmware 2023.12-1
+splix 2.0.0-20
+steam 1.0.0.78-2
+sudo 1.9.15.p4-1
+supertuxkart 1.4-5
+sysfsutils 2.1.1-1
+system-config-printer 1.5.18-2
+systemd-sysvcompat 255.2-1
+texinfo 7.1-2
+texlive-bibtexextra 2023.66594-19
+texlive-bin 2023.66984-17
+texlive-fontsextra 2023.66594-19
+texlive-fontsrecommended 2023.66594-19
+texlive-latexextra 2023.66594-19
+texlive-latexrecommended 2023.66594-19
+texlive-luatex 2023.66594-19
+texlive-music 2023.66594-19
+texlive-publishers 2023.66594-19
+thunar 4.18.9-1
+thunar-archive-plugin 0.5.2-1
+thunar-media-tags-plugin 0.4.0-1
+thunar-volman 4.18.0-1
+thunderbird 115.6.0-1
+tldr 3.2.0-1
+tor 0.4.8.10-1
+torbrowser-launcher 0.3.6-3
+tree 2.1.1-1
+ttf-bitstream-vera 1.10-15
+ttf-dejavu 2.37+18+g9b5d1b2f-4
+ttf-liberation 2.1.5-1
+ttf-opensans 1.101-2
+ttf-tibetan-machine 1.901-11
+tumbler 4.18.2-1
+unrar 1:6.2.12-1
+unzip 6.0-20
+upower 1.90.2-1
+usb_modeswitch 2.6.1-3
+usbutils 017-1
+vi 1:070224-6
+vim 9.0.2167-1
+vlc 3.0.20-4
+welcome 3.85-1
+wget 1.21.4-1
+which 2.21-6
+wireplumber 0.4.17-1
+wpa_supplicant 2:2.10-8
+xcape 1.2-4
+xclip 0.13-4
+xdg-user-dirs 0.18-1
+xdg-user-dirs-gtk 0.11-2
+xdg-utils 1.2.0r25+g0f49cf5-1
+xed 3.4.4-1
+xf86-input-libinput 1.4.0-1
+xf86-video-amdgpu 23.0.0-1
+xf86-video-ati 1:22.0.0-1
+xfburn 0.7.0-1
+xfce4-appfinder 4.18.1-1
+xfce4-artwork 0.1.1a_git20110420-6
+xfce4-battery-plugin 1.1.5-1
+xfce4-clipman-plugin 1.6.5-1
+xfce4-cpufreq-plugin 1.2.8-1
+xfce4-cpugraph-plugin 1.2.10-1
+xfce4-datetime-plugin 0.8.3-1
+xfce4-dict 0.8.6-1
+xfce4-diskperf-plugin 2.7.0-1
+xfce4-eyes-plugin 4.6.0-1
+xfce4-fsguard-plugin 1.1.3-1
+xfce4-genmon-plugin 4.2.0-1
+xfce4-mailwatch-plugin 1.3.1-1
+xfce4-mount-plugin 1.1.6-1
+xfce4-mpc-plugin 0.5.3-1
+xfce4-netload-plugin 1.4.1-1
+xfce4-notes-plugin 1.10.0-1
+xfce4-notifyd 0.9.3-1
+xfce4-panel 4.18.5-1
+xfce4-power-manager 4.18.3-1
+xfce4-pulseaudio-plugin 0.4.8-1
+xfce4-screensaver 4.18.2-1
+xfce4-screenshooter 1.10.4-1
+xfce4-sensors-plugin 1.4.4-1
+xfce4-session 4.18.3-1
+xfce4-settings 4.18.4-1
+xfce4-smartbookmark-plugin 0.5.2-1
+xfce4-systemload-plugin 1.3.2-1
+xfce4-taskmanager 1.5.6-2
+xfce4-terminal 1.1.1-2
+xfce4-time-out-plugin 1.1.3-1
+xfce4-timer-plugin 1.7.2-1
+xfce4-verve-plugin 2.0.3-1
+xfce4-wavelan-plugin 0.6.3-1
+xfce4-weather-plugin 0.11.1-1
+xfce4-whiskermenu-plugin 2.8.2-1
+xfce4-xkb-plugin 0.8.3-1
+xfconf 4.18.3-1
+xfdesktop 4.18.1-1
+xfsprogs 6.5.0-2
+xfwm4 4.18.0-2
+xfwm4-themes 4.10.0-5
+xl2tpd 1.3.18-1
+xorg-server 21.1.10-1
+xorg-xdpyinfo 1.3.4-1
+xorg-xinit 1.4.2-1
+xorg-xinput 1.6.4-1
+xorg-xkill 1.0.6-1
+xorg-xrandr 1.5.2-1
+xsane 0.999-6
+xterm 388-1
+yay 12.2.0-1
+yt-dlp 2023.11.16-1
+zathura 0.5.4-1
+zathura-pdf-mupdf 0.4.1-12
+zsh 5.9-4
+zsh-completions 0.35.0-1
