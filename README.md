@@ -32,14 +32,15 @@ use the online installer and get xfce4, as the offline installer now ships KDE
 plasma, which runs on wayland.
 
 
-##### downloading the packages
-Run these commands (either from arch console or your pre-installed DE)
+##### downloading and installing relevant packages
+Run these commands (either from arch console or your pre-installed DE's
+terminal emulator)
 
 If any dependencies need to be installed along the way, install them
 ```sh
 
 # assuming you haven't installed zsh on install via pacstrap (e.g. with EOS
-installer)
+# installer)
 
 sudo pacman -Syu zsh
 
@@ -59,7 +60,7 @@ sudo pacman -Syu xorg-server xorg-xclock xorg-xinit xorg-xinput
 sudo pacman -S i3-wm i3blocks i3status i3bar dmenu picom
 
 # assuming you haven't installed vim on install via pacstrap (e.g. with EOS
-installer)
+# installer)
 
 sudo pacman -Syu vim
 
@@ -67,10 +68,10 @@ sudo pacman -Syu vim
 
 sudo pacman -Syu gcc
 
+# (In order:) install terminal emulator, pdf viewer and git
+
 sudo pacman -Syu kitty
-
 sudo pacman -Syu zathura zathura-pdf-mupdf
-
 sudo pacman -Syu git
 
 ```
