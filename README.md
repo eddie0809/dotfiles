@@ -90,12 +90,16 @@ Then say
 `echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/
 --work-tree=$HOME'" >> $HOME/.zshrc`
 
-and `exec zsh` (or bashrc (using `source ~/.bashrc`) if you havent installed
-zshrc). Configure it to your liking, one recommendation is the following
+and `exec zsh` (or `.bashrc` (using `source ~/.bashrc`) if you haven't installed
+zsh). Configure it to your liking, one recommendation is the following
 
 `dotfiles config --local status.showUntrackedFiles no`
 
-which hides untracked files. Now we are (seemingly) ready to checkout.
+which hides untracked files[^untracked]. Now we are (seemingly) ready to
+checkout.
+
+[^untracked]: since `--work-tree` is set to `$HOME`, every file in your home
+directory, except for the configs, is going to be untracked. 
 
 `dotfiles checkout`
 
