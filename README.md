@@ -2,7 +2,7 @@
 
 These are my dotfiles. There are many like it, but these ones are mine.
 
-## current setup
+### current setup
  
 - OS: Arch Linux x86\_64 
 - Kernel: 6.6.8-arch1-1 
@@ -13,7 +13,7 @@ These are my dotfiles. There are many like it, but these ones are mine.
 - Editor: vim
 - PDF Viewer: zathura
 
-### "Installation guide"
+#### "Installation guide"
 
 This assumes you already installed an OS. If not, follow [this installation
 guide](https://wiki.archlinux.org/title/Installation_guide) to install the
@@ -32,7 +32,7 @@ use the online installer and get xfce4, as the offline installer now ships KDE
 plasma, which runs on wayland.
 
 
-#### downloading the packages
+##### downloading the packages
 Run these commands (either from arch console or your pre-installed DE)
 
 If any dependencies need to be installed along the way, install them
@@ -75,7 +75,22 @@ sudo pacman -Syu git
 
 ```
 
-#### cloning the repo
+###### primer on xdg base directory
+Once you have installed the xorg packages, I'd recommend setting some xorg
+environment variables. Put the following four lines below `export PATH` in your
+`/etc/profile`
+
+```
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+```
+
+for more information check out [this](https://wiki.archlinux.org/title/XDG_Base_Directory)
+article in the arch wiki
+
+##### cloning the repo
 
 I recommend that, rather than simply cloning this repo, you fork it and do your
 own spin on it. If you did fork it, you just need to replace my username with
@@ -95,8 +110,8 @@ zsh). Configure it to your liking, one recommendation is the following
 
 `dotfiles config --local status.showUntrackedFiles no`
 
-which hides untracked files[^untracked]. Now we are (seemingly) ready to
-checkout.
+which hides untracked files[^untracked] from status. Now we are (seemingly) 
+ready to checkout.
 
 [^untracked]: since `--work-tree` is set to `$HOME`, every file in your home
 directory, except for the configs, is going to be untracked. 
@@ -108,3 +123,8 @@ files to `<conflicting file>.old`, since they will be replaced by more sensible
 configs.
 
 And with this youre done!
+
+#### Todo
+
+- review tex.snippets (some of them are entirely useless, some of them are
+anti-feature-esque)
