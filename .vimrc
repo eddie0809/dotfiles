@@ -111,4 +111,6 @@ set splitright
 
 set laststatus=2
 
+set textwidth=79
+
 let maplocalleader = ','
