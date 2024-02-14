@@ -58,8 +58,13 @@ alias zcfg="vim ~/.zshrc"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias dotfiles='/usr/bin/git --git-dir=/home/etienne/.dotfiles/ --work-tree=/home/etienne'
-alias univpn="openconnect vpn.tik.uni-stuttgart.de"
+alias univpn="sudo openconnect vpn.tik.uni-stuttgart.de --user=st160928@stud.uni-stuttgart.de"
 alias vimrc="vim ~/.vimrc"
 alias i3cfg="vim ~/.config/i3/config"
 
 alias icat="kitty +kitten icat"
+
+alias setoffice="xrandr --output DP-2 --auto --left-of eDP-1 && nitrogen --restore && clear"
+alias unsetoffice="xrandr --output DP-2 --off"
+alias unfuckoffice="setxkbmap -layout de -option caps:swapescape"
+
