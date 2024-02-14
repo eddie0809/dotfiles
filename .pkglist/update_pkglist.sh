@@ -10,5 +10,5 @@ pacman -Qqn  > "$HOME/.pkglist/pacman-all"
 
 # commits them to dotfiles
 
-dotfiles add $HOME/.pkglist/*
-dotfiles commit -m "Backup list of installed packages $(date +%Y-%m-%d_%H:%M)"
+# exec dotfiles add $HOME/.pkglist/*
+# exec dotfiles commit -m "Backup list of installed packages $(date +%Y-%m-%d_%H:%M)"
