@@ -234,7 +234,7 @@ bar {
 # }
 
 # german keyboard layout & swap caps with escape
-exec_always "setxkbmap -layout de ,, -option caps:swapescape"
+#exec_always "setxkbmap -layout de ,, -option caps:swapescape"
 
 # set wallpaper
 exec --no-startup-id sleep 1 && nitrogen --restore
@@ -258,6 +258,8 @@ gaps outer 3px
 #########
 
 exec_always picom -b
+
+bindsym $mod+Shift+t exec picom-trans -c -t
 
 ################
 # sniping tool #

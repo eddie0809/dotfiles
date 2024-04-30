@@ -85,9 +85,8 @@ plugins=(
   colorize
   colored-man-pages
   copyfile
-  archlinux
-  systemd
   z
+  zsh-autosuggestions
   zsh-interactive-cd
 )
 
@@ -99,6 +98,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 [[ -f "$ZSH_CONFIG/alias.zsh" ]] && source "$ZSH_CONFIG/alias.zsh"
+
+# improved vi mode
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -118,3 +121,6 @@ export ARCHFLAGS="-arch x86_64"
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+
+# Created by `pipx` on 2024-04-26 10:03:05
+export PATH="$PATH:/home/etienne/.local/bin"

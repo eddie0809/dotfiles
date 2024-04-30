@@ -63,8 +63,9 @@ alias vimrc="vim ~/.vimrc"
 alias i3cfg="vim ~/.config/i3/config"
 
 alias icat="kitty +kitten icat"
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
-alias setoffice="xrandr --output DP-2 --auto --left-of eDP-1 && nitrogen --restore && clear"
-alias unsetoffice="xrandr --output DP-2 --off"
+alias setoffice="xrandr --output DP-2 --auto --left-of eDP-1 && nitrogen --restore && setxkbmap us && clear"
+alias unsetoffice="xrandr --output DP-2 --off && setxkbmap de && nitrogen --restore && clear"
 alias unfuckoffice="setxkbmap -layout de -option caps:swapescape"
 
